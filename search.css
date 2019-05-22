@@ -1,0 +1,52 @@
+#adminrecherche {
+    border: 1px solid transparent;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 25px #555;
+    padding: 15px;
+}
+
+th,
+td {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+#listepublic {
+    border: 1px solid transparent;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 25px #555;
+    padding: 15px;
+}
+
+.parvide {
+    display: none;
+}
+
+.parnom {
+    display: none;
+}
+
+.parprenom {
+    display: none;
+}
+
+.parorga {
+    display: none;
+}
+
+.pardate {
+    display: none;
+}

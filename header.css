@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav>ul {
+    margin: 0;
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav>ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav>ul>li {
+    float: left;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#lacc,
+#lcongres,
+#lpro,
+#lbrk,
+#lmiss,
+#lcolo,
+#lhab,
+#lterr,
+#lprp,
+#lcnt,
+#lvds {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav>ul>li>a {
+    color: black;
+    padding: 20px 30px;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+nav>ul>li:hover a {
+    padding: 15px 30px 20px 30px;
+}
+
+.submenu li {
+    border-bottom: 1px solid white;
+}
+
+.submenu li a {
+    padding: 15px;
+    font-size: 13px;
+    color: black;
+    width: 270px;
+}
+
+.menuacceuille:hover {
+    border-top: 5px solid #B0E0E6;
+    background-color: RGBa(176, 224, 230, 0.15);
+}
+
+.menucongres:hover {
+    border-top: 5px solid #00FA9A;
+    background-color: RGBa(0, 250, 154, 0.15);
+}
+
+.menuprojet:hover {
+    border-top: 5px solid #FFD700;
+    background-color: RGBa(255, 215, 0, 0.15);
+}
+
+.menupropos:hover {
+    border-top: 5px solid #9370DB;
+    background-color: RGBa(147, 112, 219, 0.15);
+}
+
+.menucontact:hover {
+    border-top: 5px solid #FF6347;
+    background-color: RGBa(255, 99, 71, 0.15);
+}
+
+.menuacceuille .submenu {
+    background-color: RGBa(176, 224, 230);
+}
+
+.menucongres .submenu {
+    background-color: RGBa(0, 250, 154);
+}
+
+.menuprojet .submenu {
+    background-color: RGBa(255, 215, 0);
+}
+
+.menupropos .submenu {
+    background-color: RGBa(147, 112, 219);
+}
+
+.menucontact .submenu {
+    background-color: RGBa(255, 99, 71);
+}
+
+.submenu li:hover a {
+    font-weight: bold;
+    color: white;
+}
